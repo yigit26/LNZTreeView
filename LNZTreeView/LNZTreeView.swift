@@ -111,6 +111,13 @@ public class LNZTreeView: UIView {
     }
     
     /**
+     Tree hierarchy will be saved and the dataSource will be reloaded.
+     */
+    public func reloadTree() {
+        tableView.reloadData()
+    }
+    
+    /**
      This method returns the number of sections for the current load in dataSource.
      - returns: The number of sections.
      */
